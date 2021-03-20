@@ -1,10 +1,31 @@
 body{
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgb(240, 227, 222);
-    padding-top:20px;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(240, 227, 222); */
+    /* padding-top:20px; */
 
 }
+
+.material-icons-round{
+    color:gray;
+}
+
+.down__container{
+    height: 1780px;
+    width: 1200px;
+    background-color:rgb(252, 237, 223);
+
+
+}
+
+.upper__container{
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(231, 231, 231);
+
+}
+
+
 
 .header__img-container{
     border-radius: 50px;
@@ -22,7 +43,7 @@ body{
 
 }
 
-.header__heading{
+.header__myname{
     margin-top: 10px;
     
 }
@@ -30,11 +51,14 @@ body{
 .header__jobposition{
     font-size: 12px;
     font-style: italic;
-    lighting-color: darkgray;
+    color:lightslategrey;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    letter-spacing: 0.05em; 
 }
 
 .section__heading,
-.header__heading{
+.header__myname{
     text-transform: uppercase;
 }
 
@@ -78,12 +102,20 @@ main{
     background-color: rgb(247, 247, 247);
     border-radius: 4px;
     box-shadow: rgb(98, 109, 124);
+    margin-top: 20px;
+
 }
 
 h2{
     font-size: 16px;
+    font-weight: medium;
+    letter-spacing: 0.2em; 
 }
+
 
 h1{
     font-size: 18px;
+    font-weight: medium;
+    letter-spacing: 0.2em; 
+    
 }
