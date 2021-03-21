@@ -7,7 +7,7 @@ var formacao = [
 
     {
         'titulo': 'Graduação Tecnóloga em Fotografia',
-        'local': 'UNICAP• 2014-2016'
+        'local': 'Unicap • 2014-2016'
         
     },
 
@@ -74,7 +74,7 @@ var listaCertificados = [
 
     {
         'curso': 'Client Needs and Software Requirements',
-        'local': 'Coursera'
+        'local': 'Alberta University • Coursera'
         
     },
 
