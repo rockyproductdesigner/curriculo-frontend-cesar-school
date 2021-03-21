@@ -7,7 +7,7 @@ var formacao = [
 
     {
         'titulo': 'Graduação Tecnóloga em Fotografia',
-        'local': 'Unicap • 2014-2016'
+        'local': 'Unicap • 2014-16'
         
     },
 
