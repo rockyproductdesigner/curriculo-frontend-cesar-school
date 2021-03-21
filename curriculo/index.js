@@ -116,35 +116,35 @@ var listaXp = [
     {
         'posicao': 'Product Designer',
         'local': 'CESAR',
-        'descricao': 'blablabla'
+        'descricao': 'Gerenciamento de estratégia, design de interface, comunicação, desenvolvimento de produto de acordo com os requisitos dos stakeholders.'
         
     },
 
     {
         'posicao': 'Product Designer',
         'local': 'Imagine Free',
-        'descricao': 'blablabla'
+        'descricao': 'Responsável pela criação da identidade visual, design de interface, comunicação com stakeholders e mídia social dos produtos digitais.'
         
     },
 
     {
-        'posicao': 'Video Maker',
+        'posicao': 'Designer/Video Producer',
         'local': 'Imagem Plural',
-        'descricao': 'blablabla'
+        'descricao': 'Designer da identidade visual, website e mídias sociais além de produtora de vídeo da concepção à finalização.'
         
     },
 
     {
         'posicao': 'Fotógrafa & Video Maker',
         'local': 'Folha de Pernambuco',
-        'descricao': 'blablabla'
+        'descricao': 'Fotógrafa e video maker da coluna social do jornal.'
         
     },
 
     {
         'posicao': 'Editora de Vídeo',
         'local': 'Quebra Coco Produções',
-        'descricao': 'blablabla'
+        'descricao': 'Editora de vídeo de programa televisivo diário e publicidade.'
         
     },
 ];
