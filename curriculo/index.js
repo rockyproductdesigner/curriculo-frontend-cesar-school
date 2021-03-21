@@ -4,6 +4,7 @@ var formacao = [
         'local': 'Cesar School • 2020-21'
         
     },
+
     {
         'titulo': 'Graduação Tecnóloga em Fotografia',
         'local': 'UNICAP• 2014-2016'
@@ -33,12 +34,12 @@ formacaoNoHTML.innerHTML = formatado.join('');
 
 var listaIdiomas = [
     {
-        'idioma': 'Inglês 🇬🇧',
+        'idioma': 'Inglês',
         'nivel': 'Fluente'
         
     },
     {
-        'idioma': 'Francês 🇫🇷',
+        'idioma': 'Francês',
         'nivel': 'Avançado'
         
     },
@@ -64,7 +65,7 @@ idiomaNoHTML.innerHTML = formatado.join('');
 
 
 
-var listaIdiomas = [
+var listaCertificados = [
     {
         'curso': 'Product Research',
         'local': 'Mergo User Experience'
@@ -89,21 +90,87 @@ var listaIdiomas = [
         
     },
 
-
 ];
+
 
 var formatado = [];
 
-for (var lingua of listaIdiomas){
+for (var lista of listaCertificados){
     var item = `<li>
-                    <span class="section__item-title">${lingua.curso}</span><br></br>
-                    <span class="section__item-subtitle">${lingua.local}</span><br></br>
+                    <span class="section__item-title">${lista.curso}</span><br></br>
+                    <span class="section__item-subtitle">${lista.local}</span><br></br>
                  </li>`;
 
 
     formatado.push(item);
 }
 
-var idiomaNoHTML = document.getElementById('formacaoAdicional');
-idiomaNoHTML.innerHTML = formatado.join('');
+var certificadoNoHTML = document.getElementById('formacaoAdicional');
+certificadoNoHTML.innerHTML = formatado.join('');
+
+
+
+
+
+var listaXp = [
+    {
+        'posicao': 'Product Designer',
+        'local': 'CESAR',
+        'descricao': 'blablabla'
+        
+    },
+
+    {
+        'posicao': 'Product Designer',
+        'local': 'Imagine Free',
+        'descricao': 'blablabla'
+        
+    },
+
+    {
+        'posicao': 'Video Maker',
+        'local': 'Imagem Plural',
+        'descricao': 'blablabla'
+        
+    },
+
+    {
+        'posicao': 'Fotógrafa & Video Maker',
+        'local': 'Folha de Pernambuco',
+        'descricao': 'blablabla'
+        
+    },
+
+    {
+        'posicao': 'Editora de Vídeo',
+        'local': 'Quebra Coco Produções',
+        'descricao': 'blablabla'
+        
+    },
+];
+
+
+var formatado = [];
+
+for (var lista of listaXp){
+    var item = `<li>
+                    <span class="section__item-title">${lista.posicao}</span><br></br>
+                    <span class="section__item-subtitle">${lista.local}</span><br></br>
+                    <span class="section__item-subsubtitle">${lista.descricao}</span><br></br>
+                 </li>`;
+
+
+    formatado.push(item);
+}
+
+var xpNoHTML = document.getElementById('experiencia');
+xpNoHTML.innerHTML = formatado.join('');
+
+
+
+
+
+
+
+
 
