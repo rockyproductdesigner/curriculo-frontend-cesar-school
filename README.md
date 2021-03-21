@@ -1,2 +1,2 @@
 # curriculo-frontend-cesar-school
-Projeto da disciplina de Front end na Especialização em Design de Interação para Artefatos Digitais no CESAR School
+Projeto da disciplina de Frontend da Especialização em Design de Interação para Artefatos Digitais no CESAR School
